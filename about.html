@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About AA Builders</title>
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .team-member {
+      text-align: center;
+      width: 200px;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .team-member img:hover {
+      transform: scale(1.05);
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .team-member {
+        width: 100%;
+      }
+
+      .team-member img {
+        width: 120px;
+        height: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>About AA Builders</h1>
+  </header>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>We are a professional construction team passionate about delivering top-tier construction, design, and renovation services. Our work speaks for itself — quality, innovation, and customer satisfaction at the heart of everything we do.</p>
+  </section>
+
+  <section>
+    <h2>Our Mission & Vision</h2>
+    <p><strong>Mission:</strong> To deliver dependable and high-quality construction solutions tailored to every client’s vision.</p>
+    <p><strong>Vision:</strong> To become a benchmark of innovation and sustainability in the construction industry.</p>
+  </section>
+
+  <section>
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="team-member">
+        <img src="logo3.jpg" alt="Alwin - CEO">
+        <h3>Alwin</h3>
+        <p>CEO & Founder</p>
+      </div>
+      <div class="team-member">
+        <img src="logo1.jpg" alt="Praveen - Head of Design">
+        <h3>Praveen</h3>
+        <p>Head of Design</p>
+      </div>
+      <div class="team-member">
+        <img src="logo2.jpg" alt="Dhanush - Project Manager">
+        <h3>Dhanush</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
